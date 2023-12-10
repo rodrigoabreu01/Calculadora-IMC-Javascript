@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300&family=Kulim+Park:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Kulim Park', sans-serif;
 }
 body{
     width: 100%;
@@ -9,17 +12,29 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 20px 0px 20px;;
+    background: rgb(255,255,255);
+background: linear-gradient(80deg, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 21%, rgba(73,119,129,1) 100%);
 }
 .container-imc{
     border: 1px solid black;
     padding: 30px;
     border: 1px solid #1F5EAF;;
     border-radius: 10px;
+    width: 50%;
+    border: 0;
+    background: rgb(255,255,255);
+background: linear-gradient(80deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(219,235,238,1) 100%);
 }
 .container-imc h1{
     color: #1F5EAF;
 }
-.container-imc input{
+.container-imc form label{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.container-imc form input{
+    
     height: 40px;
 }
 .container-imc button{
@@ -48,12 +63,16 @@ body{
 .container-imc .div-botoes .btn-calcular{
     background-color: #1F5EAF;
     width: 120px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
     border: 0;
+}
+.container-imc .div-botoes .btn-calcular:hover{
+    background-color: #548bd3;
 }
 .container-imc .div-botoes .btn-limpar{
     background-color: #FF5202;
@@ -63,6 +82,10 @@ body{
     border-radius: 20px;
     cursor: pointer;
     border: 0;
+    font-size: 18px;
+}
+.container-imc .div-botoes .btn-limpar:hover{
+    background-color: #e97a47;
 }
 .container-imc .div-resultado{
     display: flex;
