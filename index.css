@@ -47,17 +47,26 @@ body{
 }
 .container-imc .div-botoes .btn-calcular{
     background-color: #1F5EAF;
-    padding: 13px 28px 13px 28px;
+    width: 120px;
     text-decoration: none;
     color: white;
     border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
 }
 .container-imc .div-botoes .btn-limpar{
     background-color: #FF5202;
-    padding: 13px 28px 13px 28px;
+    width: 120px;
     text-decoration: none;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+}
+.container-imc .div-resultado{
+    display: flex;
+    flex-direction: column;
 }
 .container-imc .div-resultado{
     background-color: #FF5202;
@@ -65,4 +74,9 @@ body{
     text-decoration: none;
     color: white;
     border-radius: 20px;
+}
+.container-imc .div-resultado a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
